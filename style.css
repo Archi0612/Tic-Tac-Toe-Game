@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(70deg, rgb(52, 147, 225), rgb(241, 55, 241));
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    
+}
+
+h1{
+    text-shadow: 5px 5px 10px rgb(16, 87, 187);
+    text-decoration: underline;
+}
+.container{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(222, 26, 26, 0.5);
+    font-size: 8vmin;
+    font-weight: 500;
+    background-color: skyblue;
+    color: rgb(2, 67, 128);
+}
+
+h1{
+    font-size: 4rem;
+    align-items: center;
+    
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-image: linear-gradient(30deg, rgb(54, 140, 220),rgb(2, 38, 72));
+    /* background-color: rgb(2, 67, 128); */
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    width: 10rem;
+}
+
+#reset:hover{
+    box-shadow: 0  0.5rem 1rem 0 rgba(255, 255, 255, 0.6);
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-image: linear-gradient(30deg, rgb(54, 140, 220),rgb(2, 38, 72));
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    width: 10rem;
+}
+
+#new-btn:hover{
+    box-shadow: 0  0.5rem 1rem 0 rgba(255, 255, 255, 0.6);
+
+}
+
+#msg{
+    font-size: 8vmin;
+    color:rgb(50, 169, 215);
+    text-shadow: 10px 10px 10px black;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+    background-image: linear-gradient(50deg,rgb(8, 71, 116),rgb(7, 129, 44));
+    
+}
+
+.hide{
+    display: none;
+}
+
+.curr-player{
+    background-image: linear-gradient(rgb(61, 199, 237), rgb(133, 5, 169));
+    height: 6vmin;
+    width: 30vmin;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+#player-name{
+    margin-top: 1rem;
+    height: 5vmin;
+    width: 30vmin;
+    color: azure;
+    font-size: larger;
+    text-transform: capitalize;
+    text-shadow: 6px 5px 5px  rgb(0, 0, 0);
+
+}
